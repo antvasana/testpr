@@ -890,7 +890,7 @@
 // result запишем содержимое переменной txt.
 
 let txt = 'здесь хранится какой-либо текст';
-let n = '60';
+let n = '19';
 let result;
 
 if (txt.length > n.length) {
