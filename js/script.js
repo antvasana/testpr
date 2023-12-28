@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 // let a1 = 7 + 2;
 // let a2 = 7 - 3;
@@ -16,11 +16,11 @@
 // Напишите скрипт, который находит площадь прямоугольника высота 23см.
 // (в числовую переменную height), шириной 10см (в числовую переменную width),
 // значение площади должно хранится в числовой переменной s. (S=a*b);
-let width = 10;
-let height = 23;
-let s;
-s = width * height;
-console.log(`S = ${s}`); // окрасилось черным - текст
+// let width = 10;
+// let height = 23;
+// let s;
+// s = width * height;
+// console.log(`S = ${s}`); // окрасилось черным - текст
 
 // Пример №3
 // Создайте переменную str и присвойте ей значение 'qwerty'. Обращаясь к отдельным
@@ -316,7 +316,7 @@ console.log(`S = ${s}`); // окрасилось черным - текст
 // 14.12.23
 // Урок 8. Условия
 
-// let year = 2021; 
+// let year = 2021;
 // if (year == 2021) {
 //   console.log(true);
 //   console.log('Вы молодец');
@@ -324,7 +324,7 @@ console.log(`S = ${s}`); // окрасилось черным - текст
 //   console.log(false);
 // }
 
-// let year = 2023; 
+// let year = 2023;
 // if (year < 2023) {
 //   console.log('Вы в прошлом');
 // } else if (year > 2023) {
@@ -422,14 +422,14 @@ console.log(`S = ${s}`); // окрасилось черным - текст
 // Условия
 
 // Пример 1
-// Если переменная num = 5, то выведите 'true' в console.log, иначе выведите 
+// Если переменная num = 5, то выведите 'true' в console.log, иначе выведите
 // 'false'.
-let num = '5';
-if(num === 5){
-    console.log(true);
-}else{
-    console.log(false);
-}
+// let num = '5';
+// if(num === 5){
+//     console.log(true);
+// }else{
+//     console.log(false);
+// }
 
 // Пример 2
 // У вас есть дом. В доме 3 подъезда, в каждом подъезде по 10 квартир.
@@ -488,24 +488,24 @@ if(num === 5){
 // В переменной minute лежит число от 0 до 59.
 // Определите в какую четверть часа попадает это число
 // (в первую, вторую, третью или четвертую).
-let minute = 47;
-if (minute > 0 && minute <= 15) {
-  console.log('Это число попадает в первую четверть часа');
-} else if (minute > 15 && minute <= 30) {
-  console.log('Это число попадает во вторую четверть часа');
-} else if (minute > 30 && minute <= 45) {
-  console.log('Это число попадает в третью четверть часа');
-} else if (minute > 45 && minute <= 60) {
-  console.log('Это число попадает в четвертую четверть часа');
-} else {
-  console.log('Это число выходит за рамки часового интервала');
-}
+// let minute = 47;
+// if (minute > 0 && minute <= 15) {
+//   console.log('Это число попадает в первую четверть часа');
+// } else if (minute > 15 && minute <= 30) {
+//   console.log('Это число попадает во вторую четверть часа');
+// } else if (minute > 30 && minute <= 45) {
+//   console.log('Это число попадает в третью четверть часа');
+// } else if (minute > 45 && minute <= 60) {
+//   console.log('Это число попадает в четвертую четверть часа');
+// } else {
+//   console.log('Это число выходит за рамки часового интервала');
+// }
 
 // Пример 2
-// Переменная lang может принимать 2 значения: 'ru' 'en'. 
-// Если она имеет значение 'ru', то в переменную arr 
-// запишем массив дней недели на русском языке, 
-// а если имеет значение 'en' – то на английском. 
+// Переменная lang может принимать 2 значения: 'ru' 'en'.
+// Если она имеет значение 'ru', то в переменную arr
+// запишем массив дней недели на русском языке,
+// а если имеет значение 'en' – то на английском.
 // для ru - arr = ['пн', 'вт', 'ср', 'чт', 'пт', 'сб', 'вс']
 // для en - arr = ['mn', 'ts', 'wd', 'th', 'fr', 'st', 'sn'];
 
@@ -526,24 +526,24 @@ if (minute > 0 && minute <= 15) {
 // двузначным или трехзначным и более.
 
 
-let number = -345;
-let string = '345';
-let quantity = string.length;
+// let number = -345;
+// let string = '345';
+// let quantity = string.length;
 
-console.log('quantity = ' + quantity);
-if (number > 0 && quantity <= 1) {
-  console.log("Число " + number + " однозначное положительное");
-} else if (number > 0 && quantity > 1 && quantity <= 2) {
-  console.log("Число " + number + " двузначное положительное");
-} else if (number > 0 && quantity > 2 && quantity <= 3) {
-  console.log("Число " + number + " трехзначное положительное");
-} else if (number < 0 && quantity <= 1) {
-  console.log("Число " + number + " однозначное отрицательное");
-} else if (number < 0 && quantity > 1 && quantity <= 2) {
-  console.log("Число " + number + " двузначное отрицательное");
-} else if (number < 0 && quantity > 2 && quantity <= 3) {
-  console.log("Число " + number + " трехзначное отрицательное");
-}; 
+// console.log('quantity = ' + quantity);
+// if (number > 0 && quantity <= 1) {
+//   console.log("Число " + number + " однозначное положительное");
+// } else if (number > 0 && quantity > 1 && quantity <= 2) {
+//   console.log("Число " + number + " двузначное положительное");
+// } else if (number > 0 && quantity > 2 && quantity <= 3) {
+//   console.log("Число " + number + " трехзначное положительное");
+// } else if (number < 0 && quantity <= 1) {
+//   console.log("Число " + number + " однозначное отрицательное");
+// } else if (number < 0 && quantity > 1 && quantity <= 2) {
+//   console.log("Число " + number + " двузначное отрицательное");
+// } else if (number < 0 && quantity > 2 && quantity <= 3) {
+//   console.log("Число " + number + " трехзначное отрицательное");
+// };
 
 // Пример 4
 // Создаются переменные red и yellow для красного и
@@ -552,11 +552,11 @@ if (number > 0 && quantity <= 1) {
 // значения "нет", горит зелёный сигнал светофора и
 // выводиться сообщение, разрешающее переходить дорогу.
 
-let red = false;
-let yellow = true;
-if (!red || !yellow) {
-  console.log('Можно переходить дорогу');
-}
+// let red = false;
+// let yellow = true;
+// if (!red || !yellow) {
+//   console.log('Можно переходить дорогу');
+// }
 
 // Циклы
 // Пример 5
@@ -568,33 +568,381 @@ if (!red || !yellow) {
 
 // Пример 6
 // Выведите столбец чисел от 5 до 13.
-let i = 5;
-for (; i <= 13;) {
-  console.log(i++);
-}
+// let i = 5;
+// for (; i <= 13;) {
+//   console.log(i++);
+// }
 
-// Пример 7
-// Выведите столбец четных чисел в промежутке от 0 до 16.
-for (let i = 0; i <= 16; i++) {
-  if (i % 2 == 1) continue;
-   console.log(i);
- }
+// // Пример 7
+// // Выведите столбец четных чисел в промежутке от 0 до 16.
+// for (let i = 0; i <= 16; i++) {
+//   if (i % 2 == 1) continue;
+//    console.log(i);
+//  }
 
 
 // Пример 8
 // С помощью цикла найдите сумму чисел arr = [2,5,8,3,6]
-let result = 0;
-let arr = [2,5,8,3,6];
-for(let i = 0; i < arr.length; i++){
-  result = result + arr[i];
-  console.log(result); // В этом случае выводится результат каждой итерации.
-     // 0+2 = 2
-     //2+5 = 7
-     // 7 + 8 = 15
-     // 15 + 3 = 18
-     // 18 + 6 = 24
-  }
+// let result = 0;
+// let arr = [2,5,8,3,6];
+// for(let i = 0; i < arr.length; i++){
+//   result = result + arr[i];
+//   console.log(result); // В этом случае выводится результат каждой итерации.
+//      // 0+2 = 2
+//      //2+5 = 7
+//      // 7 + 8 = 15
+//      // 15 + 3 = 18
+//      // 18 + 6 = 24
+//   }
+// console.log(result);
+
+// 18.12.23 Урок 11. Функции, стрелочные функции
+
+// function work() {
+//   console.log('hi');
+// }
+// work();
+
+// function work(hour, minute) {
+//   console.log(`Я закончил работу в ${hour}:${minute}.`);
+// }
+// work(17, 30);
+
+// let a = 2;
+// let b = 3;
+
+// function work(a, b) {
+//   a = a + b;
+//   console.log(a);
+// }
+// work(a, b);
+// console.log(a);
+
+// let a = 2;
+
+// function work(a) {
+//   let b = 1;
+//   console.log(a + b);
+// }
+// work(a);   //3
+// console.log(b);
+
+// function work(a, b) {
+//   a = a + b;
+//   console.log(a + b);
+// }
+// work(3, 2);  //7
+// console.log(b);  // ничего не выводится
+
+// function sum(a, b) {
+//   return a + b;
+//   console.log('no');
+// }
+// const result = sum(3, 5);
+// console.log(result);
+
+// function sum(a = 3) {
+//   console.log(a);
+// }
+// sum();  //3
+
+// let work = () => console.log('Hello');
+// work();  // Hello
+
+// let work = (a) => console.log(a);
+// work('Привет');
+
+// let work = (a, b) => a + b;
+// console.log(work(2, 3));  //5
+
+// let work = (a) => {
+//   let result = a * a;
+//   console.log(result);
+// }
+// work(12);  //144
+
+// let work = (a) => {
+//   let result = a * a;
+//   return result;
+// }
+// console.log(work(3)); //9
+
+// let txt = "ABCDE";
+// console.log(txt.length);  //5
+
+// let txt = "Всем привет, меня зовут Андрей Андрей!";
+// console.log(txt.indexOf("Андрей"));  //24
+
+// let txt = "Всем привет, меня зовут Андрей Андрей!";
+// console.log(txt.lastIndexOf("Андрей"));  //31
+
+// let txt = "Всем привет, меня зовут Андрей!";
+// console.log(txt.lastIndexOf("Вадим"));  //-1
+
+// let txt = "Всем привет, меня Андрей зовут Андрей!";
+// console.log(txt.search("Андрей"));  //24
+
+// let txt = "Банан, Яблоко, Киви";
+// console.log(txt.slice(7, 13));  //Яблоко
+// console.log(txt.slice(-12, -6));  //Яблоко
+// console.log(txt.slice(7)); //Яблоко, Киви
+
+// let txt = "Банан, Яблоко, Киви";
+// console.log(txt.substring(7, 13));  //Яблоко
+//  console.log(txt.substring(7));  //Яблоко, Киви
+// console.log(txt.substring(-12, -6)); //ничего не выводится
+
+// console.log(txt.substr(7, 6)); //Яблоко
+// console.log(txt.substr(0, 5)); //Банан
+// console.log(txt.substr(7));  //Яблоко, Киви
+
+// let txt = "Всем привет, меня зовут Андрей!";
+// console.log(txt.replace("Андрей", "Вадим"));  //Всем привет, меня Андрей зовут Вадим!
+
+// let txt = "Всем привет, меня Андрей зовут Андрей!";
+// console.log(txt.replace("Андрей", "Вадим")); //Всем привет, меня Вадим зовут Андрей!
+
+// let txt = "Всем привет, меня зовут Андрей!";
+// console.log(txt.replace(/АНДРЕЙ/i, "Вадим")); //Всем привет, меня зовут Вадим!
+
+// let txt = "Всем привет, меня Андрей зовут Андрей!";
+// console.log(txt.replace(/АНДРЕЙ/g, "Вадим")); //Всем привет, меня Андрей зовут Андрей!
+// console.log(txt.replace(/Андрей/g, "Вадим")); //Всем привет, меня Вадим зовут Вадим!
+
+// let txt = "Банан, Яблоко, Киви";
+// console.log(txt.toUpperCase()); //БАНАН, ЯБЛОКО, КИВИ
+// console.log(txt.toLowerCase()); //банан, яблоко, киви
+
+// let txt1 = 'Меня зовут:';
+// let txt2 = 'Андрей';
+// console.log(txt1.concat(' ', txt2 ));
+
+// let txt = "Банан, Яблоко, Киви";
+// console.log(txt.charAt(0));  //Б
+
+// let txt = "Банан, Яблоко, Киви";
+// // console.log(txt.charCodeAt(0)); //1041
+
+// console.log(txt[0]);  //Б
+
+// let txt = "а, б, в, г";
+// console.log(txt.split(",")); //(4) ['а', ' б', ' в', ' г']
+
+// let txt = "Привет";
+// console.log(txt.split(""));//['П', 'р', 'и', 'в', 'е', 'т']
+
+// let num = 159;
+// console.log(num.toString()); //159 черного цвета
+
+// let num = 1.23456;
+// console.log(num.toExponential(3));  //1.235e+0 черного цвета
+
+// let num = 1.23456;
+// console.log(num.toFixed()); //1
+
+// let num = 1.23456;
+// console.log(num.toFixed(2));  //1.23 черного цвета
+
+// let num = 1.23456;
+// console.log(num.toFixed(6)); //1.234560 черного цвета
+
+// let num = 1.23456;
+// console.log(num.toPrecision(2)); //1.2 черного цвета
+
+// let num = 1.23456;
+// console.log(num.valueOf()); //1.23456 синего цвета
+
+// console.log(Number(true)); //1
+// console.log(Number(false)); //0
+// console.log(Number('1')); //1
+// console.log(Number(' 1')); //1
+// console.log(Number('1 ')); //1
+// console.log(Number('10 ')); //10
+// console.log(Number('1.23')); //1.23
+// console.log(Number('1,23')); //NaN
+// console.log(Number('10 33')); //NaN
+// console.log(Number('Andrey')); //NaN
+
+// console.log(parseInt('10')); //10
+// console.log(parseInt('10.33')); //10
+// console.log(parseInt('10 20 30')); //10
+// console.log(parseInt('10 years')); //10
+// console.log(parseInt('years 10')); //NaN
+
+// console.log(parseFloat('10')); //10
+// console.log(parseFloat('10.33')); //10.33
+// console.log(parseFloat('10 20 30')); //10
+// console.log(parseFloat('10 years')); //10
+// console.log(parseFloat('years 10')); //NaN
+
+// let max = Number.MAX_VALUE;
+// console.log(max); //1.7976931348623157e+308
+// let min = Number.MIN_VALUE;
+// console.log(min); //5e-324
+
+// let a = 100 / "Андрей";
+// console.log(a); //NaN
+
+// let num = 1;
+// console.log(num.MAX_VALUE); //undefined
+
+// function calculateArea(r) {
+//   let area;
+//   if (r <= 0) {
+//     return 0;
+//   } else {
+//     area = Math.PI * r * r;
+//     return area;
+//   }
+// }
+
+// let radius = 2.2;
+// let theArea = calculateArea(radius);
+// console.log('The area is: ' + theArea); //The area is: 15.205308443374602
+// console.log(theArea.toFixed(2)); //15.21
+
+// Дана строка 'abc!def!'. Замените все ! на '@'
+// с помощью глобального поиска и замены.
+// let txt = 'abc!def!';
+// // console.log(txt.replace('!', '@')); //abc@def!
+// console.log(txt.replace(/!/g, '@')); //abc@def@
+
+// Дана строка 'aaa bbb ccc'. Вырежите из нее слово 'bbb'
+// тремя разными способами (через substr, substring, slice).
+// let txt = 'aaa bbb ccc';
+// console.log(txt.substr(4,3)); //bbb
+// console.log(txt.substring(4,7)); //bbb
+// console.log(txt.slice(4,7)); //bbb
+
+// Дана строка 'js'. Сделайте из нее строку 'JS'.
+// let txt = 'js';
+// console.log(txt.toUpperCase()); //JS
+
+// Дана строка 'я люблю JS!'. Найдите количество
+// символов в этой строке.
+// let txt = 'я люблю JS!';
+// console.log(txt.length); //11
+
+// 27.12.23 урок 13 дз
+
+// Домашнее задание
+// Выписать в комментариях. Вам необходимо найти все переменные,
+// функции, аргументы и параметры.
+// Запишите имена в соответсвующие пункты
+// Переменные: years, myDog, guests.
+// Функции: dogYears, makeTea, secret.
+// Встроенные функции:
+// Аргументы: (myDog, 4) (guests, 'Earl Grey').
+// Параметры: (dogname, age)  (cups, tea).
+// function dogYears(dogname, age){
+//     let years = age * 2;
+//     console.log(dogName + ' is ' + years + ' years old');
+// }
+// let myDog = 'Rex';
+// dogYears(myDog, 4);
+
+// function makeTea (cups, tea){
+//     console.log('Breawing ' + cups + ' cups of' + tea);
+// }
+// let guests = 2;
+// makeTea(guests, 'Earl Grey');
+
+// function secret(){
+//     console.log('The secret of life is 28');
+// }
+// secret();
+
+/* ************** */
+
+// Дана строка 'JS'. Сделайте из нее строку 'js'.
+// let txt = 'JS';
+// console.log(txt.toLowerCase()); //js
+
+// Дана строка 'я люблю JS!'. Вырежьте из нее слово
+// 'люблю' и слово 'javascript' тремя разными способами
+// (через substr, substring, slice).
+
+// let txt = 'я люблю JS!';
+
+// console.log(txt.substr(2,5));
+// console.log(txt.substring(2,7));
+// console.log(txt.slice(-9,-4));
+
+// console.log(txt.substr(8, 2));
+// console.log(txt.substring(8, 10));
+// console.log(txt.slice(-3, -1));
+
+/* ************** */
+
+// Дана строка 'я люблю JS!'. Найдите позицию
+// подстроки 'люблю'.
+// console.log(txt.indexOf('люблю')); //2
+
+
+/* ************** */
+
+// Дана переменная txt, в которой хранится какой-либо текст.
+// Реализуйте обрезание длинного текста по следующему
+// принципу: если количество символов этого текста больше
+// заданного в переменной n, то в переменную result запишем
+// первые n символов строки txt и добавим в конец
+// троеточие '...'. В противном случае в переменную
+// result запишем содержимое переменной txt.
+
+let txt = 'здесь хранится какой-либо текст';
+let n = '60';
+let result;
+
+if (txt.length > n.length) {
+  result = console.log(txt.slice(0, n).concat('...'));
+} else {
+  result = txt;
+}
 console.log(result);
+// хотя txt.length < n.length, почему-то вывелись еще и точки, хотя в первоначальной переменной txt их не было: здесь хранится какой-либо текст...
+
+
+/* ************** */
+
+// Для решения задач данного блока вам понадобятся следующие
+// методы: replace.
+
+// Дана строка 'Я-люблю-JS!'.
+// Замените все  '-' на '!' с помощью глобального
+// поиска и замены.
+
+// let txt = 'Я-люблю-JS!';
+// console.log(txt.replace(/-/g, '!'));
+
+
+
+// Дана строка 'я люблю JS'. С помощью метода split
+// запишите каждое слово этой строки в отдельный элемент
+// массива.
+
+// let txt = 'я люблю JS';
+// console.log(txt.split(","));
+
+
+
+// Дана строка 'привет мир'. С помощью метода split
+// запишите каждый символ этой строки в отдельный элемент
+// массива.
+
+// let txt = 'привет мир';
+// console.log(txt.split(""));
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
