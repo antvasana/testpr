@@ -889,16 +889,16 @@
 // троеточие '...'. В противном случае в переменную
 // result запишем содержимое переменной txt.
 
-let txt = 'здесь хранится какой-либо текст';
-let n = '19';
-let result;
+// let txt = 'здесь хранится какой-либо текст';
+// let n = '19';
+// let result;
 
-if (txt.length > n.length) {
-  result = console.log(txt.slice(0, n).concat('...'));
-} else {
-  result = txt;
-}
-console.log(result);
+// if (txt.length > n.length) {
+//   result = console.log(txt.slice(0, n).concat('...'));
+// } else {
+//   result = txt;
+// }
+// console.log(result);
 // хотя txt.length < n.length, почему-то вывелись еще и точки, хотя в первоначальной переменной txt их не было: здесь хранится какой-либо текст...
 
 
@@ -932,6 +932,14 @@ console.log(result);
 // let txt = 'привет мир';
 // console.log(txt.split(""));
 
+
+// let user = {
+//   name: 'Andrey',
+//   age: 28,
+//   eyescolor: 'grey'
+// };
+
+// console.log(user.name);
 
 
 
